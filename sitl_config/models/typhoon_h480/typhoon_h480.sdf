@@ -1342,7 +1342,7 @@
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position_gztopic</joint_control_type>
           <gztopic>/gimbal_roll_cmd</gztopic>
-          <joint_name>typhoon_h480::cgo3_camera_joint</joint_name>
+          <joint_name>cgo3_camera_joint</joint_name>
         </channel>
         <channel name="gimbal_pitch">
           <input_index>7</input_index>
@@ -1352,7 +1352,7 @@
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position_gztopic</joint_control_type>
           <gztopic>/gimbal_pitch_cmd</gztopic>
-          <joint_name>typhoon_h480::cgo3_camera_joint</joint_name>
+          <joint_name>cgo3_camera_joint</joint_name>
         </channel>
         <channel name="gimbal_yaw">
           <input_index>8</input_index>
@@ -1362,7 +1362,7 @@
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position_gztopic</joint_control_type>
           <gztopic>/gimbal_yaw_cmd</gztopic>
-          <joint_name>typhoon_h480::cgo3_vertical_arm_joint</joint_name>
+          <joint_name>cgo3_vertical_arm_joint</joint_name>
         </channel>
         <channel name="left_leg">
           <input_index>9</input_index>
@@ -1417,9 +1417,9 @@
       <accelerometerTurnOnBiasSigma>0.196</accelerometerTurnOnBiasSigma>
     </plugin>
     <plugin name='gimbal_controller' filename='libgazebo_gimbal_controller_plugin.so'>
-      <joint_yaw>typhoon_h480::cgo3_vertical_arm_joint</joint_yaw>
-      <joint_roll>typhoon_h480::cgo3_horizontal_arm_joint</joint_roll>
-      <joint_pitch>typhoon_h480::cgo3_camera_joint</joint_pitch>
+      <joint_yaw>cgo3_vertical_arm_joint</joint_yaw>
+      <joint_roll>cgo3_horizontal_arm_joint</joint_roll>
+      <joint_pitch>cgo3_camera_joint</joint_pitch>
       <control_gimbal_channels>
         <channel>
           <joint_control_pid>
