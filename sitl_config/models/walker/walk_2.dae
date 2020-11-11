@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-<!-- actor2 is a blue man-->
+<!-- actor3 is a brown man-->
   <asset>
     <contributor>
       <author>Blender User</author>
@@ -118,13 +118,13 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <ambient>
-              <color sid="ambient">0.05706184 0.09248417 0.3508265 1</color>
+              <color sid="ambient">0.1969495 0.07701492 0.03641987 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.05706184 0.09248417 0.3508265 1</color>
+              <color sid="diffuse">0.1969495 0.07701492 0.03641987 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.1329787 0.1329787 0.1329787 1</color>
+              <color sid="specular">0.7712766 0.7712766 0.7712766 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -144,13 +144,13 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <ambient>
-              <color sid="ambient">0.05706184 0.09248417 0.3508265 1</color>
+              <color sid="ambient">0.1969495 0.07701492 0.03641987 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.05706184 0.09248417 0.3508265 1</color>
+              <color sid="diffuse">0.1969495 0.07701492 0.03641987 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.1329787 0.1329787 0.1329787 1</color>
+              <color sid="specular">0.7712766 0.7712766 0.7712766 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
