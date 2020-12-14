@@ -613,7 +613,7 @@ revolute with 0-0 limit can realize a fixed joint perfectly!!   -->
 
 <!-- 3d lidar -->
       <include>
-        <uri>model://3d_lidar</uri>
+        <uri>model://3d_gpu_lidar</uri>
         <pose>0 0 2.2 0 0 0</pose>
       </include>
     <joint name="lidar_joint" type="revolute">
