@@ -28,6 +28,3 @@ if __name__ == "__main__":
     while not rospy.is_shutdown():
         cmd_vel_flu_pub.publish(twist)
         rate.sleep()
-                                        
-    
-
